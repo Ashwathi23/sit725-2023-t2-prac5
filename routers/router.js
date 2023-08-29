@@ -13,4 +13,11 @@ router.get('/', (req,res)=>{
 
 });
 
+router.delete('/', (req, res) => {
+
+    controller.deleteCat(req, res);
+
+});
+
+
 module.exports = router;
