@@ -5,8 +5,8 @@ let url = 'http://localhost:3001/api/cat';
 let cat = {
     title: 'Test title',
     path: 'images/astro main.jpeg',
-    subTitle: 'test subtitle',
-    description: 'Test description'
+    subTitle: 'ASTRO',
+    description: 'This is astro'
 }
 
 describe('test GET', function () {
